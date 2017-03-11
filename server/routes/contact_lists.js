@@ -9,7 +9,7 @@ let UserModel = require('../models/users');
 let User = UserModel.User; // alias for User Model - User object
 
 // define the game model
-let game = require('../models/contactlist');
+let game = require('../models/contact_lists');
 
 // create a function to check if the user is authenticated
 function requireAuth(req, res, next) {
