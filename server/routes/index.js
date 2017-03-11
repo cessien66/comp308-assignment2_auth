@@ -37,7 +37,30 @@ router.get('/contact', (req, res, next) => {
     displayName: req.user ? req.user.displayName : ''
    });
 });
-
+/* GET services page. */
+router.get('/service', (req, res, next) => {
+  res.render('content/service', {
+    title: 'Contact',
+    contact_lists: '',
+    displayName: req.user ? req.user.displayName : ''
+   });
+});
+/* GET project page. */
+router.get('/contact', (req, res, next) => {
+  res.render('content/project', {
+    title: 'Contact',
+    contact_lists: '',
+    displayName: req.user ? req.user.displayName : ''
+   });
+});
+/* GET about me page. */
+router.get('/contact', (req, res, next) => {
+  res.render('content/about', {
+    title: 'Contact',
+    contact_lists: '',
+    displayName: req.user ? req.user.displayName : ''
+   });
+});
 // GET /login - render the login view
 router.get('/login', (req, res, next)=>{
   // check to see if the user is not already logged in
