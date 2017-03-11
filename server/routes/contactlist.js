@@ -9,7 +9,7 @@ let UserModel = require('../models/users');
 let User = UserModel.User; // alias for User Model - User object
 
 // define the game model
-let game = require('../models/games');
+let game = require('../models/contactlist');
 
 // create a function to check if the user is authenticated
 function requireAuth(req, res, next) {
@@ -40,8 +40,8 @@ router.get('/', requireAuth, (req, res, next) => {
 
 //  GET the Game Details page in order to add a new Game
 router.get('/add', requireAuth, (req, res, next) => {
-  res.render('games/details', {
-    title: "Add a new Game",
+  res.render('contacts/details', {
+    title: "Add new contact",
     games: '',
     displayName: req.user.displayName
   });
