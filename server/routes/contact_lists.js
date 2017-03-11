@@ -132,6 +132,18 @@ router.get('/delete/:id', requireAuth, (req, res, next) => {
       }
     });
 });
+// Renders the about page
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: 'Contact ' });
+});
+// Renders the project page
+router.get('/project', function(req, res, next) {
+  res.render('project', { title: 'Contact ' });
+});
+// Renders the service page
+router.get('/service', function(req, res, next) {
+  res.render('service', { title: 'Contact ' });
+});
 
 
 module.exports = router;
