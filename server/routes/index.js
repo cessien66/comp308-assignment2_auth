@@ -46,7 +46,7 @@ router.get('/service', (req, res, next) => {
    });
 });
 /* GET project page. */
-router.get('/contact', (req, res, next) => {
+router.get('/project', (req, res, next) => {
   res.render('content/project', {
     title: 'Contact',
     contact_lists: '',
@@ -54,7 +54,7 @@ router.get('/contact', (req, res, next) => {
    });
 });
 /* GET about me page. */
-router.get('/contact', (req, res, next) => {
+router.get('/about', (req, res, next) => {
   res.render('content/about', {
     title: 'Contact',
     contact_lists: '',
