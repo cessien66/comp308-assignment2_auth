@@ -1,9 +1,9 @@
 {
   "name": "comp308-w2017-lesson6b",
-  "description": "## Welcome to Lesson 6 - Authentication with Passport",
+  "description": "## Assignment 2",
   "main": "server.js",
   "authors": [
-    "Tom Tsiliopoulos"
+    "Clinton Essien"
   ],
   "license": "ISC",
   "keywords": [
@@ -11,7 +11,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "homepage": "https://github.com/CentennialCollege/COMP308-W2017-Lesson6B",
+  "homepage": "https://github.com/cessien66/comp308-assignment2_auth",
   "ignore": [
     "**/.*",
     "node_modules",
